@@ -32,7 +32,7 @@ function displayResult(weatherInfo) {
     container.appendChild(header1);
 
     var header2 = document.createElement('h1');
-    header2.textContent = "Довго: " + weatherInfo.coord.lon + " Широта: " + weatherInfo.coord.lat;
+    header2.textContent = "Довгота: " + weatherInfo.coord.lon + " Широта: " + weatherInfo.coord.lat;
     container.appendChild(header2);
 
     var header3 = document.createElement('h1');
