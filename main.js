@@ -50,13 +50,13 @@ function displayResult(weatherInfo) {
     p1.textContent = 'Температура: ' + temperatureReal + " °C";
     p2.textContent = 'Відчувається як: ' + temteratureFeels + " °C";
     p3.textContent = 'Вітер: ' + weatherInfo.wind.speed + " m/s";
-p4.textContent = 'Погода: ' + weatherInfo.weather.main;
-    p5.textContent = 'Погода уточнення: ' + weatherInfo.weather.description;
+    p4.textContent = 'Погода: ' + weatherInfo.weather.main+" ";
+    p5.textContent = 'Погода уточнення: ' + weatherInfo.weather.description+" ";
     container.appendChild(p1);
     container.appendChild(p2);
     container.appendChild(p3);
-     container.appendChild(p4);
-     container.appendChild(p5);
+    container.appendChild(p4);
+    container.appendChild(p5);
 
     document.body.appendChild(container);
 }
