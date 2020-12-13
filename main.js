@@ -45,9 +45,9 @@ function displayResult(weatherInfo) {
 
     var temperatureReal = Math.round(weatherInfo.main.temp - 273.16);
     var temteratureFeels = Math.round(weatherInfo.main.feels_like - 273.16);
-    p1.textContent = 'Real temperature: ' + temperatureReal + " °C";
-    p2.textContent = 'Feels like: ' + temteratureFeels + " °C";
-    p3.textContent = 'Wind: ' + weatherInfo.wind.speed + " m/s";
+    p1.textContent = 'Температура: ' + temperatureReal + " °C";
+    p2.textContent = 'Відчувається як: ' + temteratureFeels + " °C";
+    p3.textContent = 'Вітер: ' + weatherInfo.wind.speed + " m/s";
 
     container.appendChild(p1);
     container.appendChild(p2);
